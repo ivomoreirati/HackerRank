@@ -12,7 +12,7 @@ public class SolutionCountPair {
     static int sockMerchant(int n, int[] ar) {
     int count = 0;
     int result = 0;
-    Map<Integer, Integer> aux = new HashMap<>();
+    Map<Integer, Integer> aux = new HashMap<Integer, Integer>();
         for(int i=0; i<n; i++){
             if(!aux.containsValue(ar[i])){
                 for(int j=0; j<n; j++){
