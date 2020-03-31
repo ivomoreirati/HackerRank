@@ -1,5 +1,7 @@
 /bin/
 /target/
+target/
+*.iml
 /request.log
 /request-2020-02-14.log
 /request-2020-02-17.log
@@ -13,6 +15,7 @@
 /.mvn
 .settings
 .idea
+.idea/
 .metadata
 .mvn
 .settings
